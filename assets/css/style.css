@@ -1,0 +1,124 @@
+/* 
+    Created on : 21-Feb-2017, 14:55:50
+    Author     : Mario Costa <mario@computech-it.co.uk>
+*/
+.container-fluid{
+    padding: 0px;
+}
+.sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+}
+.sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+}
+.sidebar-nav .navbar li {
+    float: none;
+    display: block;
+}
+.sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.widget{
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+.widget h2 {
+    margin: 0;
+    padding: 12px 12px;
+    text-align: left;
+    font-size: 14px;
+    color: #669fc7;
+    font-weight: lighter;
+    border-bottom: 1px solid #ddd;
+    background: linear-gradient(to bottom,#fff,#eee) repeat-x;
+}
+.details {
+    background-color: #fff;
+    border: 1px solid #DCEBF7;
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+.details {
+    background-color: #fff;
+    border: 1px solid #DCEBF7;
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+.details>div {
+    display: table-row;
+}
+.details>div {
+    padding: 0;
+}
+.details>div>div:nth-child(1) {
+    background-color: #EDF3F4;
+    width: 20%;
+    color: #336199;
+    text-align: right;
+    font-size: 10px;
+    line-height: 20px;
+}
+.details>div>div {
+    border: 1px solid #F7FBFF;
+    padding: 5px 10px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.widget-blue{
+    border-color: blue;
+}
+
+.widget-blue h2{
+    border-color: blue;
+    background: blue;
+    color: #fff;
+}
+
+.widget-red{
+    border-color: red;
+}
+
+.widget-red h2{
+    border-color: red;
+    background: red;
+    color: #fff;
+}
+
+.widget-green{
+    border-color: green;
+}
+
+.widget-green h2{
+    border-color: green;
+    background: green;
+    color: #fff;
+}
+
+.widget-purple{
+    border-color: purple;
+}
+
+.widget-purple h2{
+    border-color: purple;
+    background: purple;
+    color: #fff;
+}
+.fa{
+    cursor: pointer;
+}
+.fa-times{
+    color: red;
+}
+.fa-pencil-square-o{
+    color: green;
+}
